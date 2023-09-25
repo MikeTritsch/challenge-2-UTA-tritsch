@@ -1,3 +1,75 @@
-* {
-    border: solid 1px red;
+
+
+:root {
+    --rockies-purple: #333366;
+    --background-silver: #C4CED4;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--background-silver);
+    font-family: sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    margin: 10px 10px 10px 0;
+    padding: 20px;
+    font-size: 200%;
+    width: 15%;
+    background-color: var(--rockies-purple);
+    color: var(--background-silver);
+}
+
+header ul {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+header li {
+    display: flex;
+    padding: 10px;
+}
+
+header a {
+    text-decoration: none;
+    padding: 0 10px 5px 10px;
+    border-bottom: solid 4px var(--rockies-purple);
+}
+
+.hero {
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/hero.jpg");
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text h2{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--background-silver);
+    font-size: 50px;
+}
+
+.hero-text p{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40px);
+    color: var(--background-silver);
+    font-size: 20px;
 }
