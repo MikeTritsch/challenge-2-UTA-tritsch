@@ -1,5 +1,5 @@
 * {
-         border: 1px red solid;
+          /* border: 1px red solid; */ */
 }
 
 :root {
@@ -76,7 +76,14 @@ header a {
     font-size: 20px;
 }
 
-.work-aside-title {
+.about {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    width: 90%;
+}
+
+.about-aside-title {
     display: flex;
     justify-content: center;
     font-size: 75px;
@@ -84,11 +91,19 @@ header a {
     margin: 15px;
 }
 
+.work-aside-title {
+    display: flex;
+    justify-content: center;
+    font-size: 75px;
+    padding: 10px 50px 10px 10px;
+    margin: 15px;
+}
+
 .about-me {
     display: flex;
     justify-content: center;
-    border-left: solid 4px var(--rockies-purple);
-    padding: 10px;
+    border-left: solid 5px var(--rockies-purple);
+    padding: 40px;
     margin: 10px;
 }
 
@@ -97,12 +112,6 @@ header a {
     align-items: flex-start;
     position: relative;
     top: 10px
-}
-
-.showcase {
-    display: flex;
-    position: relative;
-    padding: 10px;
 }
 
 .work-section-prime {
@@ -119,7 +128,7 @@ header a {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 100%;
+    width: 90%;
     height: 400px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/project-1.png");
     -webkit-filter: blur(3px);
