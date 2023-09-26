@@ -14,18 +14,18 @@ body {
 
 header {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     background-color: var(--background-silver);
     font-family: sans-serif;
 }
 
 header h1 {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 10px 10px 10px 0;
     padding: 20px;
     font-size: 200%;
-    width: 15%;
     background-color: var(--rockies-purple);
     color: var(--background-silver);
 }
@@ -78,15 +78,15 @@ header a {
 
 .about-aside-title {
     display: flex;
+    justify-content: flex-start;
     font-size: 75px;
-    float: left;
-    height: 100%;
     padding: 10px;
     margin: 15px;
 }
 
 .about-me {
     display: flex;
+    justify-content: center;
     border-left: solid 4px var(--rockies-purple);
     padding: 10px;
     margin: 10px;
@@ -98,15 +98,16 @@ header a {
 
 .work {
     display: flex;
-    width: 100%;
     height: 800px;
 }
 
-.work-section {
+.work-aside-title {
     display: flex;
-    position: relative;
-    border-left: solid 4px var(--rockies-purple);
-    width: 100px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 75px;
+    padding: 10px 40px 10px 10px;
+    margin: 15px;
 }
 
 .showcase {
@@ -115,11 +116,44 @@ header a {
     padding: 10px;
 }
 
-.work-aside-title {
+.work-section-prime {
     display: flex;
-    font-size: 75px;
-    float: left;
-    height: 20%;
+    justify-content: center;
     padding: 10px;
-    margin: 15px;
+    margin: 10px;
+}
+
+.pic-prime {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 800px;
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/project-1.png");
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.pic-prime:hover {
+    -webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+.pic-prime-text {
+    color: var(--rockies-purple);
+    padding: 5px;
+    width: 150px;
+    background-color: var(--background-silver);
+}
+
+.projects-grid img{
+    width: 400px;
+    height: 200px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
 }

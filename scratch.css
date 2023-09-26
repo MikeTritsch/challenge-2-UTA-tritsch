@@ -40,3 +40,53 @@
 </body>
 
 </html> 
+
+
+
+
+
+<div id="work-section" class="projects-grid">
+<article class="pic-two">
+        <div>
+            <h3 class="project-title">Horiseon Refactor</h3>
+            <p class="project-lang">HTML | CSS</p>
+        </div>
+    </div>
+</article>
+
+<article class="pic-three">
+    <div class="flex">
+        <div>
+            <img src="./assets/images/portfolio-landing.png" alt="A screenshot of a CSS cheatsheet project.">
+        </div>
+        <div>
+            <h3 class="project-title">Portfolio Coming Soon</h3>
+            <p class="project-lang">HTML | CSS</p>
+        </div>
+    </div>
+</article>
+
+<article class="pic-four">
+    <div class="flex">
+        <div>
+            <img src="./assets/images/GOTG.jpg" alt="A screenshot of a CSS cheatsheet project.">
+        </div>
+        <div>
+            <h3 class="project-title">Coming Soon</h3>
+            <p class="project-lang">JavaScript | HTML | CSS</p>
+        </div>
+    </div>
+</article>
+
+<article class="pic-five">
+    <div class="flex">
+        <div>
+            <img src="./assets/images/josh-rinard-5BwDF9VhB6A-unsplash.jpg" alt="A screenshot of a CSS cheatsheet project.">
+        </div>
+        <div>
+            <h3 class="project-title">Coming Soon</h3>
+            <p class="project-lang">JavaScript | HTML | CSS</p>
+        </div>
+    </div>
+</article>
+</div>
