@@ -1,5 +1,5 @@
 * {
-          /* border: 1px red solid; */ */
+          /* border: 1px red solid; */
 }
 
 :root {
@@ -91,6 +91,8 @@ header a {
     margin: 15px;
 }
 
+/* WORK CARDS */
+
 .work-aside-title {
     display: flex;
     justify-content: center;
@@ -116,6 +118,7 @@ header a {
 
 .work-section-prime {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
     float: right;
     width: 100%;
@@ -128,6 +131,8 @@ header a {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    margin: 10px;
+    margin-left: 25px;
     width: 90%;
     height: 400px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/project-1.png");
@@ -155,3 +160,56 @@ header a {
     padding: 5px;
     z-index: 1;
 }
+
+#horiseon {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 45%;
+    height: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/horiseon.png");
+}
+
+#landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 45%;
+    height: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/landing-take-two.png");
+}
+
+#place-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 45%;
+    height: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/gotg.png");
+}
+
+#place-holder-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 45%;
+    height: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/colorado.png");
+    background-repeat: no-repeat;
+}
+
+.pic-prime-small {
+    margin: 10px;
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.pic-prime-small:hover {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+}
+
+
+
