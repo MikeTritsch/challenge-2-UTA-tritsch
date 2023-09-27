@@ -1,5 +1,5 @@
 * {
-          /* border: 1px red solid; */
+           /* border: 1px red solid; */
 }
 
 :root {
@@ -132,14 +132,13 @@ header a {
     flex-direction: column;
     justify-content: flex-end;
     margin: 10px;
-    margin-left: 25px;
     width: 90%;
     height: 400px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/project-1.png");
-    -webkit-filter: blur(3px);
-	filter: blur(3px);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.129), rgb(0, 0, 0)), url("/assets/images/project-1.png");
+    border: solid var(--background-silver) 3px;
+    color: var(--background-silver);
+    padding: 10px;
+    font-size: 200%;
 }
 
 .pic-prime:hover {
@@ -147,27 +146,16 @@ header a {
 	filter: blur(0);
 }
 
-.pic-prime-text {
-    display: flex;
-    flex-direction: column;
-    height: 60px;
-    position: relative;
-    top: 330px;
-    left: 0px;
-    margin: 0 -139px -200px 0;
-    color: var(--rockies-purple);
-    background-color: var(--background-silver);
-    padding: 5px;
-    z-index: 1;
-}
-
 #horiseon {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 45%;
+    width: 43.5%;
     height: 200px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/horiseon.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0)), url("/assets/images/horiseon.png");
+    border: solid var(--background-silver) 3px;
+    color: var(--background-silver);
+    padding: 10px;
 }
 
 #landing {
@@ -176,39 +164,47 @@ header a {
     justify-content: flex-end;
     width: 45%;
     height: 200px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/landing-take-two.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0)), url("/assets/images/landing-take-two.png");
+    border: solid var(--background-silver) 3px;
+    color: var(--background-silver);
+    padding: 10px;
 }
 
-#place-holder {
+#medium {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 43.5%;
+    height: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0)), url("/assets/images/gotg.png");
+    border: solid var(--background-silver) 3px;
+    color: var(--background-silver);
+    padding: 10px;
+}
+
+#magazine {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     width: 45%;
     height: 200px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/gotg.png");
-}
-
-#place-holder-two {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 45%;
-    height: 200px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/colorado.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0)), url("/assets/images/colorado.png");
+    border: solid var(--background-silver) 3px;
     background-repeat: no-repeat;
+    color: var(--background-silver);
+    padding: 10px;
 }
 
 .pic-prime-small {
     margin: 10px;
-    -webkit-filter: blur(3px);
-	filter: blur(3px);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
 }
 
 .pic-prime-small:hover {
-    -webkit-filter: blur(0);
-    filter: blur(0);
+    cursor: pointer;
+}
+
+.pic-prime:hover {
+    cursor: pointer;
 }
 
 
