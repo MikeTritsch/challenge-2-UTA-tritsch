@@ -12,8 +12,6 @@ I plan on fixing a few features over the course of this bootcamp. I'd like to ma
 
 The next concept I plan on tackling is media queries, as I am still having trouble understanding and applying them.
 
-NOTE: GITHUB IS NOT CURRENTLY DISPLAYING MY IMAGES - I'VE CHECKED THE RELATIVE PATHS, CASE SENSATIVITY, AND SYNTAX - NO DICE.
-
 ## Installation
 
 N/A
@@ -27,7 +25,9 @@ Feel free to contact me via phone, email, LinkedIn, or follow me on Spotify! Let
 ## Credits
 
 Colorado Rockies Theme Colors: [Team Color Codes](https://teamcolorcodes.com/colorado-rockies-color-codes/)
+
 Bootcampspot Tutor: Jacob Carver - Helped me with spacing of the smaller project cards.
+
 Hero Section + Gradients: [W3 Schools](https://www.w3schools.com/howto/howto_css_hero_image.asp)
 
 
