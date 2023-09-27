@@ -5,12 +5,27 @@ Challenge 2 for UT Austin's Full Stack Bootcamp
 
 Welcome to my Colorado Rockies themed advanced CSS portfolio! This challenge was a huge learning process for me as I made a big effort to include all of the concepts I've learned so far in Bootcamp. I struggled with the concept of flexbox leading up to this, and rather than avoid it, I wanted to take it on as much as I could, and I think it shows here. My motivation behind this project was to create the basis of what will become my professional portfolio. I plan on adding to and referencing this project as my portfolio changes.
 
+Here is the reference photo I was given:
+![Reference Photo](../challenge-2-UTA-tritsch/assets/images/reference.png)
 
-## What Comes Next?
+
+## What Comes Next? and other issues...
 
 I plan on fixing a few features over the course of this bootcamp. I'd like to make my code, especially my CSS more efficient. I'd also like to practice creating more semantic HTML code.
-
 The next concept I plan on tackling is media queries, as I am still having trouble understanding and applying them.
+
+Here is a design bug I found while looking at my page on different viewports:
+![Large Viewport Flex Issue](../challenge-2-UTA-tritsch/assets/images/large-display-view.png)
+
+This also happens when I shrink the page as well, letting me know the left border of the affected element is likely tied to some display feature.
+![Flex Issue](../challenge-2-UTA-tritsch/assets/images/small-flex.png)
+
+As you can see, the left border of the contact/footer section is not aligned with the others - something I did not catch looking at my laptop view (pictured below).
+![Laptop View](../challenge-2-UTA-tritsch/assets/images/laptop-view.png)
+
+Another issue I have is using media queries to make my page display properly on a mobile devide. Although the page flexes, it is not how I'd like the page to be viewed.
+![Mobile View](../challenge-2-UTA-tritsch/assets/images/mobile-view.png)
+![Bottom Mobile View](../challenge-2-UTA-tritsch/assets/images/mobile-view2.png)
 
 ## Installation
 
