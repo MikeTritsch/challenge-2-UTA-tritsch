@@ -1,7 +1,3 @@
-* {
-     /* border: 1px red solid; */
-}
-
 :root {
     --rockies-purple: #333366;
     --background-silver: #C4CED4;
@@ -256,3 +252,18 @@ header a {
 .contact-me a{
     display:inline-block;
 }
+
+/* MEDIA QUERIES UNDER CONSTRUCTION - STILL FIGURING THESE OUT */
+
+/* @media screen and (max-width: 992px) {
+    * {
+
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+
+    }
+  }
+
+*/
