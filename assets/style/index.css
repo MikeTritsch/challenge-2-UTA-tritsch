@@ -1,8 +1,10 @@
+/* VARIABLES */
 :root {
     --rockies-purple: #333366;
     --background-silver: #C4CED4;
 }
 
+/* CSS FOLLOWS PAGE HTML ORDER */
 body {
     display: flex;
     flex-direction: column;
@@ -10,6 +12,7 @@ body {
     font-family: sans-serif;
 }
 
+/* HEADER STYLES */
 header {
     display: flex;
     justify-content: space-between;
@@ -45,6 +48,7 @@ header a {
     border-bottom: solid 4px var(--rockies-purple);
 }
 
+/* HERO STYLES */
 .hero {
     display: inline-flex;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/hero.jpg");
@@ -74,6 +78,7 @@ header a {
     font-size: 20px;
 }
 
+/* ABOUT ME SECTION */
 .about {
     display: flex;
     align-items: flex-start;
@@ -81,21 +86,11 @@ header a {
     width: 90%;
 }
 
-.about-aside-title {
+.about-title {
     display: flex;
     justify-content: center;
     font-size: 57.5px;
     padding: 10px;
-    margin: 15px;
-}
-
-/* WORK CARDS */
-
-.work-aside-title {
-    display: flex;
-    justify-content: center;
-    font-size: 58px;
-    padding: 10px 42px 10px 10px;
     margin: 15px;
 }
 
@@ -108,6 +103,16 @@ header a {
     font-size: 150%;
 }
 
+/* WORK SECTION */
+
+.work-title {
+    display: flex;
+    justify-content: center;
+    font-size: 58px;
+    padding: 10px 42px 10px 10px;
+    margin: 15px;
+}
+
 .work {
     display: flex;
     align-items: flex-start;
@@ -115,7 +120,7 @@ header a {
     top: 10px
 }
 
-.work-section-prime {
+.work-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -126,7 +131,8 @@ header a {
     border-left: solid 5px var(--rockies-purple);
 }
 
-.pic-prime {
+/* PROJECT CARDS */
+.main-project {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -138,11 +144,6 @@ header a {
     color: var(--background-silver);
     padding: 10px;
     font-size: 200%;
-}
-
-.pic-prime:hover {
-    -webkit-filter: blur(0);
-	filter: blur(0);
 }
 
 #horiseon {
@@ -194,18 +195,20 @@ header a {
     padding: 10px;
 }
 
-.pic-prime-small {
+.project-pics {
     margin: 10px;
 }
 
-.pic-prime-small:hover {
+/* PROJECT CARDS HOVER FX */
+.project-pics:hover {
     cursor: pointer;
 }
 
-.pic-prime:hover {
+.main-project:hover {
     cursor: pointer;
 }
 
+/* CONTACT SECTION */
 .contact {
     display: flex;
     align-items: flex-start;
@@ -214,7 +217,7 @@ header a {
     padding-top: 10px;
 }
 
-.contact-aside-title {
+.contact-title {
     display: flex;
     justify-content: center;
     font-size: 44.1px;
@@ -222,6 +225,7 @@ header a {
     margin: 15px;
 }
 
+/* CONTACT INFO */
 .contact-me {
     display: flex;
     justify-content: center;
