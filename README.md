@@ -12,6 +12,8 @@ I plan on fixing a few features over the course of this bootcamp. I'd like to ma
 
 The next concept I plan on tackling is media queries, as I am still having trouble understanding and applying them.
 
+NOTE: GITHUB IS NOT CURRENTLY DISPLAYING MY IMAGES - I'VE CHECKED THE RELATIVE PATHS, CASE SENSATIVITY, AND SYNTAX - NO DICE.
+
 ## Installation
 
 N/A
