@@ -139,7 +139,7 @@ header a {
     margin: 10px;
     width: 90%;
     height: 400px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.129), rgb(0, 0, 0)), url("../images/project-1.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.129), rgb(0, 0, 0)), url("../images/beer.png");
     border: solid var(--rockies-purple) 5px;
     color: var(--background-silver);
     padding: 10px;
