@@ -164,7 +164,7 @@ header a {
     justify-content: flex-end;
     width: 45%;
     height: 200px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0)), url("../images/landing-take-two.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0)), url("../images/project2.png");
     border: solid var(--rockies-purple) 5px;
     color: var(--background-silver);
     padding: 10px;
